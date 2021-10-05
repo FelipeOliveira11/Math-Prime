@@ -1,0 +1,19 @@
+    body{
+        background: no-repeat url('../img/menu.jpg');
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        color: whitesmoke;
+        }
+
+    
+    footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-color:rgba(230, 207, 83, 0.521); backdrop-filter: blur(0.5rem);
+    color: black;
+    
+}
+    

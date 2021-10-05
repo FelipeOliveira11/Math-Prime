@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style_calculo.css">
+</head>
+
+
+
+
+<body>
+
+  <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgba(88, 63, 9, 0.692); backdrop-filter: blur(0.5rem);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="calculoMedia.html">Média Escolar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tabuada.html">Tabuada</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="raizquadrada.html">Raiz Quadrada</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+
+
+  <!--NAVBAR-->      
+
+  <br>
+
+   <!--FORM-->
+
+<div class="container-fluid w-100">
+
+
+
+<form class="container col-sm-6 col-md-6 col-xl-4 col-lg-4 my-5">
+  <h1>Calcular a média</h1>
+  <br> 
+  <div class="form-group">
+    <label for="nota1"><strong>Nota 1:</strong></label>
+    <input type="number" class="form-control" id="nota1">
+  </div>
+  <div class="form-group">
+    <label for="nota2"><strong>Nota 2:</strong></label>
+    <input type="number" class="form-control" id="nota2">
+  </div>
+  <br>
+  <button onclick="calculaMedia()" type="button" class="btn btn-dark">Calcular</button>
+  <br>
+  <h2 id="mostrarNota"></h2> 
+</form>
+
+    <!--FORM--> 
+
+
+</div>
+
+    <!--SCRIPT-->
+
+<script src="js/calculo.js"></script>
+    
+    <!--SCRIPT-->
+
+
+    <!--FOOTER-->
+
+<footer class="footer navbar-fixed-bottom text-center bg-faded" >       Copyright - Desenvolvido por Felipe Ferreira 
+</footer>
+
+    <!--FOOTER-->
+</body>
+</html>

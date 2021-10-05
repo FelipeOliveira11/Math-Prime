@@ -1,0 +1,23 @@
+    body{
+        background: no-repeat url('../img/123.jpg');
+        margin: 0;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        color: whitesmoke;
+        }
+
+    .container{
+      border: solid 5px rgb(88, 63, 9);
+      background: rgba(68, 122, 6, 0.178);
+      backdrop-filter: blur(0.5rem);
+    }
+    
+    footer{
+      background-color:rgba(88, 63, 9, 0.692); backdrop-filter: blur(0.5rem);
+      position: fixed;
+      bottom:0;
+      left:0;
+      right: 0;
+      color: black;
+    }
